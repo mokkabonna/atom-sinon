@@ -1,0 +1,19 @@
+{
+  "name": "sinon",
+  "version": "0.0.0",
+  "description": "Common sinon snippets",
+  "keywords": [
+    "snippets",
+    "sinon"
+  ],
+  "activationCommands": {
+    "atom-workspace": "sinon:toggle"
+  },
+  "repository": "https://github.com/atom/sinon",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

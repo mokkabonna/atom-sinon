@@ -1,0 +1,67 @@
+'.source.js':
+  'sinon.spy':
+    'prefix': 'sinon.spy'
+    'body': 'sinon.spy();'
+  'sinon.stub':
+    'prefix': 'sinon.stub'
+    'body': 'sinon.stub();'
+  'sinon.mock':
+    'prefix': 'sinon.mock'
+    'body': 'sinon.mock();'
+  'sinon.assert.notCalled':
+    'prefix': 'notCalled'
+    'body': 'sinon.assert.notCalled(${1:spy});'
+  'sinon.assert.called':
+    'prefix': 'called'
+    'body': 'sinon.assert.called(${1:spy});'
+  'sinon.assert.calledOnce':
+    'prefix': 'calledOnce'
+    'body': 'sinon.assert.calledOnce(${1:spy});'
+  'sinon.assert.calledTwice':
+    'prefix': 'calledTwice'
+    'body': 'sinon.assert.calledTwice(${1:spy});'
+  'sinon.assert.calledThrice':
+    'prefix': 'calledThrice'
+    'body': 'sinon.assert.calledThrice(${1:spy});'
+  'sinon.assert.callCount':
+    'prefix': 'callCount'
+    'body': 'sinon.assert.callCount(${1:spy}, ${2:4});'
+  'sinon.assert.callOrder':
+    'prefix': 'callOrder'
+    'body': 'sinon.assert.callOrder(${1:spy1, spy2, ...});'
+  'sinon.assert.calledOn':
+    'prefix': 'calledOn'
+    'body': 'sinon.assert.calledOn(${1:spy}, ${2:obj});'
+  'sinon.assert.alwaysCalledOn':
+    'prefix': 'alwaysCalledOn'
+    'body': 'sinon.assert.alwaysCalledOn(${1:spy}, ${2:obj});'
+  'sinon.assert.calledWith':
+    'prefix': 'calledWith'
+    'body': 'sinon.assert.calledWith(${1:spy}, ${2:arg1, arg2, ...});'
+  'sinon.assert.alwaysCalledWith':
+    'prefix': 'alwaysCalledWith'
+    'body': 'sinon.assert.alwaysCalledWith(${1:spy}, ${2:arg1, arg2, ...});'
+  'sinon.assert.neverCalledWith':
+    'prefix': 'neverCalledWith'
+    'body': 'sinon.assert.neverCalledWith(${1:spy}, ${2:arg1, arg2, ...});'
+  'sinon.assert.calledWithExactly':
+    'prefix': 'calledWithExactly'
+    'body': 'sinon.assert.calledWithExactly(${1:spy}, ${2:arg1, arg2, ...});'
+  'sinon.assert.alwaysCalledWithExactly':
+    'prefix': 'alwaysCalledWithExactly'
+    'body': 'sinon.assert.alwaysCalledWithExactly(${1:spy}, ${2:arg1, arg2, ...});'
+  'sinon.assert.calledWithMatch':
+    'prefix': 'calledWithMatch'
+    'body': 'sinon.assert.calledWithMatch(${1:spy}, ${2:arg1, arg2, ...});'
+  'sinon.assert.alwaysCalledWithMatch':
+    'prefix': 'alwaysCalledWithMatch'
+    'body': 'sinon.assert.alwaysCalledWithMatch(${1:spy}, ${2:arg1, arg2, ...});'
+  'sinon.assert.neverCalledWithMatch':
+    'prefix': 'neverCalledWithMatch'
+    'body': 'sinon.assert.neverCalledWithMatch(${1:spy}, ${2:arg1, arg2, ...});'
+  'sinon.assert.threw':
+    'prefix': 'threw'
+    'body': 'sinon.assert.threw(${1:spy}, ${2:exception});'
+  'sinon.assert.alwaysThrew':
+    'prefix': 'alwaysThrew'
+    'body': 'sinon.assert.alwaysThrew(${1:spy}, ${2:exception});'
