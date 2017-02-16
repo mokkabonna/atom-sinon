@@ -65,3 +65,75 @@
   'sinon.assert.alwaysThrew':
     'prefix': 'alwaysThrew'
     'body': 'sinon.assert.alwaysThrew(${1:spy}, ${2:exception});'
+  'sinon.match':
+    'prefix': 'sinon.match'
+    'body': 'sinon.match($1)'
+  'sinon.match.any':
+    'prefix': 'sinon.match.any'
+    'body': 'sinon.match.any'
+  'sinon.match.defined':
+    'prefix': 'sinon.match.defined'
+    'body': 'sinon.match.defined'
+  'sinon.match.truthy':
+    'prefix': 'sinon.match.truthy'
+    'body': 'sinon.match.truthy'
+  'sinon.match.falsy':
+    'prefix': 'sinon.match.falsy'
+    'body': 'sinon.match.falsy'
+  'sinon.match.bool':
+    'prefix': 'sinon.match.bool'
+    'body': 'sinon.match.bool'
+  'sinon.match.number':
+    'prefix': 'sinon.match.number'
+    'body': 'sinon.match.number'
+  'sinon.match.string':
+    'prefix': 'sinon.match.string'
+    'body': 'sinon.match.string'
+  'sinon.match.object':
+    'prefix': 'sinon.match.object'
+    'body': 'sinon.match.object'
+  'sinon.match.func':
+    'prefix': 'sinon.match.func'
+    'body': 'sinon.match.func'
+  'sinon.match.array':
+    'prefix': 'sinon.match.array'
+    'body': 'sinon.match.array'
+  'sinon.match.regexp':
+    'prefix': 'sinon.match.regexp'
+    'body': 'sinon.match.regexp'
+  'sinon.match.date':
+    'prefix': 'sinon.match.date'
+    'body': 'sinon.match.date'
+  'sinon.match.same':
+    'prefix': 'sinon.match.same'
+    'body': 'sinon.match.same(${1:ref});'
+  'sinon.match.typeOf':
+    'prefix': 'sinon.match.typeOf'
+    'body': 'sinon.match.typeOf(${1:type});'
+  'sinon.match.instanceOf':
+    'prefix': 'sinon.match.instanceOf'
+    'body': 'sinon.match.instanceOf(${1:type});'
+  'sinon.match.has':
+    'prefix': 'sinon.match.has'
+    'body': 'sinon.match.has(${1:property [, expectation]});'
+  'sinon.match.hasOwn':
+    'prefix': 'sinon.match.hasOwn'
+    'body': 'sinon.match.hasOwn(${1:property[, expectation]});'
+  'sinon.sandbox.create':
+    'prefix': 'sinon.sandbox.create'
+    'body': 'sinon.sandbox.create(${1:config});'
+  'sinon.fakeServer.create':
+    'prefix': 'sinon.fakeServer.create'
+    'body': 'sinon.fakeServer.create(${1:config});'
+  'sinon.fakeServerWithClock.create':
+    'prefix': 'sinon.fakeServerWithClock.create'
+    'body': 'sinon.fakeServerWithClock.create(${1:config});'
+  'sinon.useFakeXMLHttpRequest':
+    'prefix': 'sinon.useFakeXMLHttpRequest'
+    'body': 'sinon.useFakeXMLHttpRequest();'
+  'sinon.useFakeTimers':
+    'prefix': 'sinon.useFakeTimers'
+    'body': 'sinon.useFakeTimers(${1:now});'
+  'sinon.expectation.create':
+    'prefix': 'sinon.expectation.create'
+    'body': 'sinon.expectation.create(${1:methodName});'
